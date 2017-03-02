@@ -1,0 +1,25 @@
+body {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: arial;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.submit     {
+  padding-top: 100px;
+}
+img         {
+  width: 200px;
+}
+.reserv     {   /* used for buttons */
+  background-color: black;
+  font-size: 15px;
+  padding: 9px 10px;
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-family: "Candara";
+  cursor: pointer;
+}

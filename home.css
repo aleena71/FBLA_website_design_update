@@ -1,0 +1,99 @@
+.parallax {
+    /* The image used */
+    background-image: url("ferris.jpg");
+
+    /* Set a specific height */
+    height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    /* The image used */
+    background-image: url("rollercoaster.jpg");
+
+    /* Set a specific height */
+    height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button.login{
+    background-color: rgb(80, 80, 80);
+    font-size: 13px;
+    padding: 9px 10px;
+    border: none;
+    float: right;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+button.reserv{   /* used for reservation & contact button */
+  margin-top: 50px;
+  background-color: black;
+  font-size: 20px;
+  padding: 9px 10px;
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-family: "Candara";
+  cursor: pointer;
+}
+.parag   {
+  font-family: tahoma;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.title    {
+  font-size: 80px;
+  font-family: arial;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.bottom     {
+  text-align: center;
+  font-size: 22px;
+  font-family: tahoma;
+}
+.bottom2    {
+  text-align: center;
+  font-size: 22px;
+  font-family: tahoma;
+}
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+
+.footer     {
+  width: 100%;
+  height: 50px;
+  background-color: #844D5E;
+}
+.footerleft {
+  color: white;
+  float: right;
+  text-align: right;
+}
+.map {
+  margin-top: 110px;
+}
+#map {
+  height: 300px;
+  width: 100%;
+}

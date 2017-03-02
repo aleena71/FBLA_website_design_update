@@ -1,0 +1,75 @@
+<html>
+<head>
+  <title>Home Page</title>
+  <link rel="stylesheet" type="text/css" href="home.css">
+</head>
+<body>
+  <!--top image - ferris wheel-->
+  <div class="parallax"><p class="title">WONDERLAND</p></div>
+
+  <div style="height:600px;background-color:none">
+    <center>
+    <p class="parag">Operating since 1962, Wonderland has been a great escape for fun and thrills
+     for generations. Constantly improving and expanding, we hold true to our
+     roots while also innovating the amusement park landscape. The best, most
+     exciting, and largest rides can be found here and only here! Award-winning
+     rides and amusements, a plethora of food-selections, and an all around aura
+      of enjoyment and thrills are what separates Wonderland from your average,
+      ordinary, everyday amusement park. With iconic rides like the Gravitron,
+      Zipper, and the one and only Brachistochrone! Buy your tickets today for
+      a day of non-stop fun! Want endless fun? Buy a season pass and come back
+      for more fun at an incredibly discounted price!</p>
+      <img src="border.png" style="width:100%;">
+      <a href="reservation.html"><button style="margin-top:20px;" class="reserv">MAKE A RESERVATION
+      </button></a>
+      <span style="display:inline-block; width:20px;"></span>
+      <a href="contact.html"><button class="reserv">CONTACT US</button></a>
+      <span style="display:inline-block; width:20px;"></span>
+      <a href="rides.html"><button class="reserv">EXPLORE OUR RIDES</button></a>
+    </center>
+  </div>
+
+  <div class="parallax2"></div> <!--second image - roller coaster-->
+
+  <div style="height:600px;background-color:none;font-size:36px">
+  <p class="bottom">
+    Park Hours:<br>
+    Monday - Friday .............. 10 AM - 8 PM<br>
+    Saturday ........................ 9 AM - 11 PM<br>
+    Sunday .......................... 9 AM - 10 PM<br>
+  </p><p class="bottom2">
+  Visiting our park with a group?<br>
+  Look through our <a href="partypackage.html" style="color:black">
+  party packages</a> for discounts!
+  </p>
+  <div id="map" class="map"></div>
+  <script>
+    function initMap() {
+      var uluru = {lat: 40.717658, lng: -73.689845};
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 12,
+        center: uluru
+      });
+      var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+      });
+    }
+  </script>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2aduLfee9hwOxkOlCzvUZPFIjCgdRbMY&callback=initMap">
+  </script>
+  </div>
+  <div class="footer">
+    <a href="reservation.html">MAKE A RESERVATION</a>
+    <span style="display:inline-block; width:20px;"></span>
+    <a href="contact.html">CONTACT US</a>
+    <span style="display:inline-block; width:20px;"></span>
+    <a href="partypackage.html">PARTY PACKAGES</a>
+    <span style="display:inline-block; width:20px;"></span>
+    <a href="rides.html">RIDES</a>
+    <div class="footerleft">500 Tulip Ave<br>
+    Floral Park, NY 11001</div>
+  </div>
+</body>
+</html>
